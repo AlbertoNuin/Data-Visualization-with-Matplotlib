@@ -1,3 +1,3 @@
 # Data-Visualization-with-Matplotlib
-Sample plotting with Matplotlib
+Library of customized plots
 - Customized line plotting
