@@ -3,6 +3,18 @@
 """
 Created on Fri Nov  1 18:28:22 2019
 
+Customized line plotting of NumPy sine and cosine functions
+- plotting with default settings
+- instantiating defaults
+- changing colors and line widths
+- setting limits for x and y
+- setting ticks
+- setting tick labels
+- moving spines
+- adding a legend
+- annotating some points
+- artist and bbox customization
+
 @author: alberto
 """
 
