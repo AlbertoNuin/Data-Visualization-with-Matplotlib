@@ -98,6 +98,6 @@ for label in ax.get_xticklabels() + ax.get_yticklabels():
             alpha=0.65))
 
 # Save figure using 72 dots per inch
-plt.savefig('exercise2.png', dpi=72)
+plt.savefig('lineplot_sine_cosine.png', dpi=72)
 
 plt.show()
