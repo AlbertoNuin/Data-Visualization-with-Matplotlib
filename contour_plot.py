@@ -4,6 +4,7 @@
 Created on Sat Nov  2 00:23:06 2019
 
 Contour plot
+- modify the number of countour lines with the variable 'tightness'
 
 @author: alberto
 """
@@ -18,14 +19,17 @@ n = 256
 x = np.linspace(-3, 3, n)
 y = np.linspace(-3, 3, n)
 
+# Defines number of contour lines
+tightness = 10
+
 # Create coordinate matrices from coordinate vectors
 X, Y = np.meshgrid(x, y)
 
 # contourf fills between contour lines using cmap
-plt.contourf(X, Y, f(X, Y), 8, alpha=0.75, cmap='hot')
+plt.contourf(X, Y, f(X, Y), tightness, alpha=0.75, cmap='hot')
 
 # contour draws contour lines and saves as CoutourSet object
-C = plt.contour(X, Y, f(X, Y), 8, colors='black', linewidth=0.5)
+C = plt.contour(X, Y, f(X, Y), tightness, colors='black', linewidth=0.5)
 
 # pass ContourSeet object to command clabel to label the contour lines
 plt.clabel(C)
