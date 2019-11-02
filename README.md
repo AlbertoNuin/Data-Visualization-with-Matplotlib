@@ -5,3 +5,4 @@ Library of customized plots
 - Scatter plot with marker color depeding on another variable
 - Bar plot with data labels
 - Contour plot
+- Imshow
