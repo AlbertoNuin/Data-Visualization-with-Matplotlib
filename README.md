@@ -9,3 +9,4 @@ Library of customized plots
 - Pie chart
 - Subplots
 - Axes: charts inside other charts
+- 3D Plot
