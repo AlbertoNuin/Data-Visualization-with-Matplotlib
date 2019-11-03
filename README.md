@@ -8,4 +8,4 @@ Library of customized plots
 - Imshow
 - Pie chart
 - Subplots
-- Axes
+- Axes: charts inside other charts
