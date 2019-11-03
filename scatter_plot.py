@@ -18,10 +18,15 @@ Y = np.random.normal(0, 1, n)
 # s: marker size
 # alpha: transparency
 
-plt.scatter(X, Y, c=np.angle(X+Y*1j), s=15, alpha=0.6)
+plt.scatter(X, Y, c=np.angle(X+Y*1j), s=75, alpha=0.6)
 
-# Hide axis
-plt.axis('off')
+# Hide axis labels
+plt.xticks(())
+plt.yticks(())
+
+# Zoom window
+plt.xlim(-1.5, 1.5)
+plt.ylim(-1.5, 1.5)
 
 # Save figure using 72 dots per inch
 plt.savefig('scatter_plot.png', dpi=72)
