@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Nov  1 18:28:22 2019
-
 Customized line plotting of NumPy sine and cosine functions
 - plotting with default settings
 - instantiating defaults
@@ -14,7 +13,6 @@ Customized line plotting of NumPy sine and cosine functions
 - adding a legend
 - annotating some points
 - artist and bbox customization
-
 @author: alberto
 """
 
@@ -96,6 +94,9 @@ for label in ax.get_xticklabels() + ax.get_yticklabels():
             facecolor='white',
             edgecolor='None',
             alpha=0.65))
+
+# Add grid
+plt.grid()
 
 # Save figure using 72 dots per inch
 plt.savefig('lineplot_sine_cosine.png', dpi=72)
