@@ -6,3 +6,4 @@ Library of customized plots
 - Bar plot with data labels
 - Contour plot
 - Imshow
+- Pie chart
