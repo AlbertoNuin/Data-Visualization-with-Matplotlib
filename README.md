@@ -9,5 +9,7 @@ Library of customized plots
 - Pie chart
 - Subplots
   - using the stateful approach
-- Axes: charts inside other charts
+- Axes: 
+  - charts inside other charts
+  - customized grids
 - 3D Plot
