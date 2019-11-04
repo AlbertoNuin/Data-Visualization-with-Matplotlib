@@ -8,5 +8,6 @@ Library of customized plots
 - Imshow
 - Pie chart
 - Subplots
+  - using the stateful approach
 - Axes: charts inside other charts
 - 3D Plot
