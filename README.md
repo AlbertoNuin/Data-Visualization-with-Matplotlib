@@ -14,3 +14,4 @@ Library of customized plots
   - customized grids
   - GridSpec: customize axes tiling
 - 3D Plot
+- Color gallery
