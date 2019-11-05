@@ -12,4 +12,5 @@ Library of customized plots
 - Axes: 
   - charts inside other charts
   - customized grids
+  - GridSpec: customize axes tiling
 - 3D Plot
